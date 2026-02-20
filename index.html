@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Structure Activity</title>
+    <style>
+        /* 1. Tag Selector - Styles the entire body with a pink background */
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+
+        /* 2. Tag Selectors - Basic layout styling */
+        header, footer {
+            background-color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            border: 2px solid #333;
+        }
+
+        section {
+            background-color: #fff0f5; /* Lavender Blush */
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        /* 3. ID Selector - Unique styling for the navigation */
+        #main-nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #main-nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        /* 4. Class Selector - Styles specific elements with this class */
+        .highlight-text {
+            color: #d81b60; /* Deep Pink */
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        /* Styling for article and aside layout */
+        article {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        aside {
+            background-color: #fce4ec;
+            padding: 10px;
+            border-left: 5px solid #d81b60;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+
+    <nav id="main-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Main Content Section</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is a self-contained <span class="highlight-text">article</span> element. It is often used for blog posts or news items.</p>
+        </article>
+
+        <aside>
+            <p><strong>Note:</strong> This is an <span class="highlight-text">aside</span>. It contains content tangentially related to the content around it, like a sidebar.</p>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 HTML5 Activity. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
